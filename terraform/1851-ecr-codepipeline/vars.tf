@@ -5,7 +5,7 @@ variable "source_branch_name" {
   default = "development"
 }
 variable "tf_backend_bucket_name" {
-  default = "tf-state-keeper-all"
+  default = "tf-state-keeper-alll"
 }
 variable "ProjectName" {
   default = "1851"
@@ -14,15 +14,15 @@ variable "region" {
   default = "us-east-1"
 }
 variable "repo_id" {
-  default = "pt1851/1851-ui3"
+  default = ""
 }
 variable "publication" {
   default = "1851"
 }
 variable "codebuild_bucket" {
-  default = "terraform-codebuild-all"
+  default = "codebuild-nagaraju"
 }
 variable "codepipeline_bucket"{
-  default = "terraform-codepipeline-all"
+  default = "codepipeline-nagaraju"
 }
  
