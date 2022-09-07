@@ -14,7 +14,7 @@ variable "region" {
   default = "us-east-1"
 }
 variable "repo_id" {
-  default = ""
+  default = "NagarajuG123/pt1851-projrct-back"
 }
 variable "publication" {
   default = "1851"
